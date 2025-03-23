@@ -1,0 +1,54 @@
+{
+  "name": "react-native-lottie-splash-screen",
+  "version": "2.0.2",
+  "description": "A lottie splash screen for react-native, hide when application loaded ,it works on iOS and Android.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "7x:install": "yarn pack && yarn workspace example7x install",
+    "7x:start": "yarn workspace example7x start",
+    "69:install": "yarn workspace example69 install",
+    "69:start": "yarn workspace example69 start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HwangTaehyun/react-native-lottie-splash-screen.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "react-native-splash-screen",
+    "react-native-lottie-splash-screen",
+    "lottie",
+    "animation",
+    "splash-screen",
+    "splashscreen",
+    "splash",
+    "launch-screen",
+    "launchscreen",
+    "android",
+    "ios"
+  ],
+  "contributors": [
+    "TaehyunHwang <taehyun_hwang@tmax.co.kr>",
+    "JoongseopWon <joongseop_won@tmax.co.kr>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HwangTaehyun/react-native-lottie-splash-screen/issues"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.70.0"
+  },
+  "homepage": "https://github.com/HwangTaehyun/react-native-lottie-splash-screen#readme",
+  "dependencies": {
+    "lottie-ios": "4.4.3",
+    "lottie-react-native": "6.7.2"
+  },
+  "workspaces": [
+    "./examples/*"
+  ],
+  "packageManager": "yarn@3.6.4"
+}
