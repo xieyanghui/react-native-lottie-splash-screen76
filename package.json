@@ -6,11 +6,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "7x:install": "yarn pack && yarn workspace example7x install",
-    "7x:start": "yarn workspace example7x start",
-    "69:install": "yarn workspace example69 install",
-    "69:start": "yarn workspace example69 start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -46,9 +42,5 @@
   "dependencies": {
     "lottie-ios": "4.4.3",
     "lottie-react-native": "6.7.2"
-  },
-  "workspaces": [
-    "./examples/*"
-  ],
-  "packageManager": "yarn@3.6.4"
+  }
 }
